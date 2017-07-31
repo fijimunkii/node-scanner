@@ -1,4 +1,4 @@
-FROM node:6.10
+FROM node:7.10.1
 MAINTAINER Harrison Powers, harrisonpowers@gmail.com
 
 RUN npm install nsp retire plato notes -g
