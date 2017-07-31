@@ -13,4 +13,4 @@ ADD scanner.sh .
 
 ENTRYPOINT ["dumb-init"]
 
-CMD ["bash scanner.sh"]
+CMD bash /usr/src/app/scanner.sh
